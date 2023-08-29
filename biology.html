@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Anant Aryam Classes - The Unit Of Aryam Institute</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;600&family=Nunito:wght@600;700;800&display=swap" rel="stylesheet">
+
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+    <style>
+        .section-image {
+  display: grid;
+  padding: 2rem;
+  grid-template-columns: 300px 1fr;
+  gap: 1rem;
+  align-items: center;
+  max-width: 800px;
+  margin: 0 auto;
+  font: 500 100%/1.5 system-ui;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+@media (max-width: 650px) {
+  .section-image {
+    display: block;
+    font-size: 80%;
+  }
+  .section-image  p {
+    position: relative;
+    margin: -3rem 0 2rem 1rem;
+    padding: 1rem;
+    background: rgba(white, 0.8);
+  }
+}
+
+.section-body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f0f0f0;
+    }
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+    .content {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: justify;
+      padding: 20px;
+      background-color: #fff;
+      border-radius: 10px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+    .content img {
+      max-width: 100%;
+      height: auto;
+      margin-bottom: 20px;
+      border-radius: 5px;
+    }
+    p {
+      font-size: 18px;
+      line-height: 1.6;
+      margin: 0;
+    }
+
+    .body-section {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 20px;
+    }
+    .body-container {
+      max-width: 800px;
+      margin: 0 auto;
+    }
+    .section {
+      margin-bottom: 40px;
+    }
+    h2 {
+      font-size: 24px;
+      margin-bottom: 20px;
+    }
+    p {
+      font-size: 16px;
+      line-height: 1.6;
+    }
+    .read-more {
+      text-align: center;
+      margin-top: 20px;
+    }
+    .read-more button {
+      padding: 10px 20px;
+      background-color: #007bff;
+      color: #fff;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    </style>
+</head>
+
+<body>
+    <!-- Spinner Start -->
+    <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+        <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
+            <span class="sr-only">Loading...</span>
+        </div>
+    </div>
+    <!-- Spinner End -->
+
+
+    <!-- Navbar Start -->
+    <nav class="navbar navbar-expand-lg bg-white navbar-light shadow sticky-top p-0">
+        <a href="index.html" class="navbar-brand d-flex align-items-center px-4 px-lg-5">
+            <h2 class="m-0 text-primary"><i class="fa fa-book me-3"></i>ARYAM CLASSES</h2>
+        </a>
+        <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+            <div class="navbar-nav ms-auto p-4 p-lg-0">
+                <a href="index.html" class="nav-item nav-link active">Home</a>
+                <a href="about.html" class="nav-item nav-link">About</a>
+                <a href="courses.html" class="nav-item nav-link">Courses</a>
+                <div class="nav-item dropdown">
+                    <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Pages</a>
+                    <div class="dropdown-menu fade-down m-0">
+                        <a href="team.html" class="dropdown-item">Our Team</a>
+                        <a href="gallery.html" class="dropdown-item">Gallery</a>
+                        <a href="404.html" class="dropdown-item">404 Page</a>
+                    </div>
+                </div>
+                <a href="contact.html" class="nav-item nav-link">Contact</a>
+            </div>
+            <a href="contact.html" class="btn btn-primary py-4 px-lg-5 d-none d-lg-block">Join Now<i class="fa fa-arrow-right ms-3"></i></a>
+        </div>
+    </nav>
+    <!-- Navbar End -->
+    <section class="section-body">
+        <div class="container">
+          <div class="content">
+            <img src="data:image/jpeg;base64,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" alt="Responsive Image">
+            <div class="body-section">
+              <div class="body-container">
+                <div class="section">
+                  <h2>BIOLOGY COURSE </h2>
+                  <p>
+                    We offer Biology Course preparatory programs in Four subjects:
+                  </p>
+                  <!-- ... Your text goes here ... -->
+                </div>
+            
+                <!-- Intensive Contact Program -->
+                <div class="section">
+                  <h3>A) BS01: General Biology</h3>
+                  <p>
+
+                    Taxonomy and physiology, Pro-and eukaryotic organizms; cell organelles and their function; multicellular organization; energy transformations; internal transport systems of plants; respiration; regulation of body fluids and excretory mechanisms; cellular reproduction; Mendelian genetics and heredity; biology and populations and communities; evolution; genesis and diversity of organizms; animal behaviour, plant and animal diseases.                    <!-- ... Rest of the text ... -->
+                  </p>
+                </div>
+            
+                <div class="section">
+                    <h3>B) BS02: Basics of Biochemistry, Biophysics, Molecular Biology</h3>
+                    <p>
+  
+                        Buffers; trace elements in biological systems; enzymes and proteins; vitamins; biological oxidations, carbohydrates and lipids and their metabolisms; digestion and absorption; detoxifying mechanisms; plant and animal hormones and their action, nervous system, nucleic acids, nature of gene and its function, Genetic code, synthesis of nucleic acids and proteins. Enzyme mechanisms and kinetics, nucleic acid metabolism, photo synthesis. Structure of biomolecules; intra and intermolecular forces; thermodynamics and kinetics of biological systems, principles of x-ray diffraction, IR and UV spectroscopy and hydrodynamic techniques.                    </p>
+                </div>
+                 <div class="section">
+                    <h3>C) BS03: Microbiology, Cell Biology and Immunology</h3>
+                    <p>
+  
+                        Classes of microorganizms and their characterization, nutrient requirement for growth; laboratory techniques in microbiology, pathogenic microorganizms and disease; applied microbiology; viruses, Microbial genetics. Innate and adaptive immunity, antigen antibodies.Cell theory; Cell architecture; methods of cell fractionation; cell division; types of chromosome structure; biochemical genetics- inborn errors of metabolisms; viruses and fungi; principles of processes of development.                    </p>
+                  </div>
+                 <div class="section">
+                    <h3>D) BS04: Mathematics for Biologists</h3>
+                    <p>
+  
+                        Mathematical functions (algebraic, exponential, trigonometric), their derivatives (derivatives and integrals of simple functions), permutations and combinations.
+
+                    </p>
+                 </div>
+                
+               
+            
+              </div>
+            
+              <!-- Responsive "Read More" Button -->
+              <div class="read-more">
+                <button id="readMoreBtn">Read Less</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      
+      </section>
+    
+    <!-- Footer Start -->
+    <div class="container-fluid bg-dark text-light footer pt-5 mt-5 wow fadeIn" data-wow-delay="0.1s">
+      <div class="container py-5">
+          <div class="row g-5">
+              <div class="col-lg-3 col-md-6">
+                  <h4 class="text-white mb-3">Quick Link</h4>
+                  <a class="btn btn-link" href="./about.html">About Us</a>
+                  <a class="btn btn-link" href="./contact.html">Contact Us</a>
+                  <a class="btn btn-link" href="https://merchant.razorpay.com/policy/LfXFaKGS4NYAL3/refund">Shipping & Delivery Policy </a>
+                  <a class="btn btn-link" href="https://merchant.razorpay.com/policy/LfXFaKGS4NYAL3/terms">Terms & Condition</a>
+                  <a class="btn btn-link" href=" https://merchant.razorpay.com/policy/LfXFaKGS4NYAL3/contact_us">Contact</a>
+              </div>
+              <div class="col-lg-3 col-md-6">
+                  <h4 class="text-white mb-3">Contact</h4>
+                  <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>Sevashram Chouraha, Subhash Nagar, Udaipur, Rajasthan 313001, India</p>
+                  <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>+91 78911 22210</p>
+                  <p class="mb-2"><i class="fa fa-envelope me-3"></i>aryaonlineclasses0924@gmail.com</p>
+                  <div class="d-flex pt-2">
+                      <a class="btn btn-outline-light btn-social" href="https://twitter.com/ANANTARYAMCLASSESUDAIPUR"><i class="fab fa-twitter"></i></a>
+                      <a class="btn btn-outline-light btn-social" href="https://facebook.com/arya classes"><i class="fab fa-facebook-f"></i></a>
+                      <a class="btn btn-outline-light btn-social" href="https://www.youtube.com/@ANANTARYAMCLASSESUDAIPUR"><i class="fab fa-youtube"></i></a>
+                      <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-linkedin-in"></i></a>
+                  </div>
+              </div>
+              <div class="col-lg-3 col-md-6">
+                  <h4 class="text-white mb-3">Gallery</h4>
+                  <div class="row g-2 pt-2">
+                      <div class="col-4">
+                          <img class="img-fluid bg-light p-1" src="img/course-1.jpg" alt="">
+                      </div>
+                      <div class="col-4">
+                          <img class="img-fluid bg-light p-1" src="img/course-2.jpg" alt="">
+                      </div>
+                      <div class="col-4">
+                          <img class="img-fluid bg-light p-1" src="img/course-3.jpg" alt="">
+                      </div>
+                      <div class="col-4">
+                          <img class="img-fluid bg-light p-1" src="img/course-2.jpg" alt="">
+                      </div>
+                      <div class="col-4">
+                          <img class="img-fluid bg-light p-1" src="img/course-3.jpg" alt="">
+                      </div>
+                      <div class="col-4">
+                          <img class="img-fluid bg-light p-1" src="img/course-1.jpg" alt="">
+                      </div>
+                  </div>
+              </div>
+              <div class="col-lg-3 col-md-6">
+                <h4 class="text-white mb-3">Latest lecture</h4>
+                
+                <div class="position-relative mx-auto" style="max-width: 400px;">
+                    <iframe  src="https://www.youtube.com/embed/NsJ_as6YYwQ?si=EyGhrazY3_RgtoQi" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>                    </div>
+            </div>
+          </div>
+      </div>
+      <div class="container">
+          <div class="copyright">
+              <div class="row">
+                  <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                      &copy; <a class="border-bottom" href="https://anantaryaminstitute.com/">anantharyaminstitute.com</a>, All Right Reserved.
+
+                      <!--/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. ***/-->
+                      Designed By <a class="border-bottom" href="https://webbyvibe.com/">Jatin Vashishtha</a>
+                  </div>
+                  <div class="col-md-6 text-center text-md-end">
+                      <div class="footer-menu">
+                          <a href="./index.html">Home</a>
+                          <a href="">Cookies</a>
+                          <a href="">Help</a>
+                          <a href="">FQAs</a>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+    <!-- Footer End -->
+
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="bi bi-arrow-up"></i></a>
+
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+    <script>
+        const readMoreBtn = document.getElementById('readMoreBtn');
+        const sections = document.querySelectorAll('.section:not(:first-child)');
+    
+        readMoreBtn.addEventListener('click', () => {
+          sections.forEach(section => {
+            section.style.display = (section.style.display === 'none') ? 'block' : 'none';
+          });
+        });
+      </script>
+</body>
+
+</html>
+
+
+
+<!-- https://formsubmit.co/el/xagoje -->

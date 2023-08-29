@@ -1,0 +1,655 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Anant Aryam Classes - The Unit Of Aryam Institute</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;600&family=Nunito:wght@600;700;800&display=swap" rel="stylesheet">
+
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+
+    <style>
+        .container {
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+    .categories {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      grid-gap: 20px;
+    }
+    .categorys {
+      background-color: #fff;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      overflow: hidden;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+      transition: transform 0.2s;
+      cursor: pointer;
+    }
+    .categorys:hover {
+      transform: scale(1.05);
+    }
+    .categorys img {
+      width: 100%;
+      height: auto;
+      max-height: 180px;
+      object-fit: cover;
+    }
+    .category-content {
+      padding: 15px;
+    }
+    .category-title {
+      font-size: 15px;
+      text-align: center;
+     
+    }
+    
+    </style>
+</head>
+
+<body>
+    <!-- Spinner Start -->
+    <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+        <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
+            <span class="sr-only">Loading...</span>
+        </div>
+    </div>
+    <!-- Spinner End -->
+
+
+    <!-- Navbar Start -->
+    <nav class="navbar navbar-expand-lg bg-white navbar-light shadow sticky-top p-0">
+        <a href="index.html" class="navbar-brand d-flex align-items-center px-4 px-lg-5">
+            <h2 class="m-0 text-primary"><i class="fa fa-book me-3"></i>ARYAM CLASSES</h2>
+        </a>
+        <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+            <div class="navbar-nav ms-auto p-4 p-lg-0">
+                <a href="index.html" class="nav-item nav-link active">Home</a>
+                <a href="about.html" class="nav-item nav-link">About</a>
+                <a href="courses.html" class="nav-item nav-link">Courses</a>
+                <div class="nav-item dropdown">
+                    <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Pages</a>
+                    <div class="dropdown-menu fade-down m-0">
+                        <a href="team.html" class="dropdown-item">Our Team</a>
+                        <a href="gallery.html" class="dropdown-item">Gallery</a>
+                        <a href="404.html" class="dropdown-item">404 Page</a>
+                    </div>
+                </div>
+                <a href="contact.html" class="nav-item nav-link">Contact</a>
+            </div>
+            <a href="contact.html" class="btn btn-primary py-4 px-lg-5 d-none d-lg-block">Join Now<i class="fa fa-arrow-right ms-3"></i></a>
+        </div>
+    </nav>
+    <!-- Navbar End -->
+
+
+    <!-- Carousel Start -->
+    <div class="container-fluid p-0 mb-5">
+        <div class="owl-carousel header-carousel position-relative">
+            <div class="owl-carousel-item position-relative">
+                <img class="img-fluid" src="img/carousel-1.jpg" alt="">
+                <div class="position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center" style="background: rgba(24, 29, 56, .7);">
+                    <div class="container">
+                        <div class="row justify-content-start">
+                            <div class="col-sm-10 col-lg-8">
+                                <h5 class="text-primary text-uppercase mb-3 animated slideInDown">Unlock Your Potential With Aryam Classes's World-Class Education</h5>
+                                <h1 class="display-3 text-white animated slideInDown">Grow Your Career With Aryam Classes!</h1>
+                                <a href="./about.html" class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">Read More</a>
+                                <a href="./contact.html" class="btn btn-light py-md-3 px-md-5 animated slideInRight">Join Now</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="owl-carousel-item position-relative">
+                <img class="img-fluid" src="img/carousel-2.jpg" alt="">
+                <div class="position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center" style="background: rgba(24, 29, 56, .7);">
+                    <div class="container">
+                        <div class="row justify-content-start">
+                            <div class="col-sm-10 col-lg-8">
+                                <h5 class="text-primary text-uppercase mb-3 animated slideInDown">Best Online Courses</h5>
+                                <h1 class="display-3 text-white animated slideInDown">Get Educated Online From Your Home</h1>
+                                <a href="" class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">Read More</a>
+                                <a href="" class="btn btn-light py-md-3 px-md-5 animated slideInRight">Join Now</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Carousel End -->
+
+
+    <!-- Service Start -->
+    <div class="container-xxl py-5">
+        <div class="container">
+            <div class="row g-4">
+                <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="service-item text-center pt-3">
+                        <div class="p-4">
+                            <i class="fa fa-3x fa-graduation-cap text-primary mb-4"></i>
+                            <h5 class="mb-3">Skilled Instructors</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="service-item text-center pt-3">
+                        <div class="p-4">
+                            <i class="fa fa-3x fa-globe text-primary mb-4"></i>
+                            <h5 class="mb-3">Online Classes</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="service-item text-center pt-3">
+                        <div class="p-4">
+                            <i class="fa fa-3x fa-home text-primary mb-4"></i>
+                            <h5 class="mb-3">Home Projects</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.7s">
+                    <div class="service-item text-center pt-3">
+                        <div class="p-4">
+                            <i class="fa fa-3x fa-book-open text-primary mb-4"></i>
+                            <h5 class="mb-3">Book Library</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Service End -->
+
+
+    <!-- About Start -->
+    <div class="container-xxl py-5">
+        <div class="container">
+            <div class="row g-5">
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s" style="min-height: 400px;">
+                    <div class="position-relative h-100">
+                        <img class="img-fluid position-absolute w-100 h-100" src="img/about.jpg" alt="" style="object-fit: cover;">
+                    </div>
+                </div>
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <h6 class="section-title bg-white text-start text-primary pe-3">About Us</h6>
+                    <h1 class="mb-4">Welcome to Aryam Classes</h1>
+                    <p class="mb-4">ANANT ARYAM CLASSES is a pioneer institute in the field of competitive teaching .We here at ARYA CLASSES teach for IIT-JAM | CSIR NET JRF | NBHM | TIFR | ISI | CMI | BHU | DU | CUCET | MSU | BARC | JEST | RPSC | JEE | BOARDS . Within a year of our establishment, we have proved our worth and our results are best in the Udaipur Region.</p>
+                    <p class="mb-4">We are the fastest growing coaching institute in Udaipur region and in years to come we will be expanding in Rajasthan. Our motto from the very beginning has been to provide the quality education to our students and with only sole motto… “CREATING INFINITE POSSIBILITIES “</p>
+                    <div class="row gy-2 gx-4 mb-4">
+                        <div class="col-sm-6">
+                            <p class="mb-0"><i class="fa fa-arrow-right text-primary me-2"></i>Skilled Instructors</p>
+                        </div>
+                        <div class="col-sm-6">
+                            <p class="mb-0"><i class="fa fa-arrow-right text-primary me-2"></i>Online Classes</p>
+                        </div>
+                        <div class="col-sm-6">
+                            <p class="mb-0"><i class="fa fa-arrow-right text-primary me-2"></i>Best Strategy</p>
+                        </div>
+                        <div class="col-sm-6">
+                            <p class="mb-0"><i class="fa fa-arrow-right text-primary me-2"></i>Creative Ideas</p>
+                        </div>
+                    </div>
+                    <a class="btn btn-primary py-3 px-5 mt-2" href="">Read More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- About End -->
+
+
+    <!-- Categories Start -->
+    <div class="container-xxl py-5 category">
+        <div class="container">
+            <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+                <h6 class="section-title bg-white text-center text-primary px-3">Categories</h6>
+                <h1 class="mb-5">Courses Categories</h1>
+            </div>
+            <div class="categories">
+                <div class="categorys">
+                  <!-- <img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAoHCBYWFRgVFRUYGRgYGBgaGBgaGBgYGBgaGBgaGRgYGBgcIS4lHB4rIRgYJjgmKy8xNTU1GiQ7QDs0Py40NTEBDAwMEA8QHhISHzQrJCs0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQxNDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NP/AABEIAMIBAwMBIgACEQEDEQH/xAAcAAABBQEBAQAAAAAAAAAAAAACAAEDBAUGBwj/xABBEAACAQIDBAYIAwUIAwEAAAABAgADEQQhMQUSQVEGMmFxgZEiQlKSobHB0RMU4VNigrLwFSMzQ3KiwtIHJUQk/8QAGgEAAwEBAQEAAAAAAAAAAAAAAAECAwQFBv/EACcRAAICAQMEAQUBAQAAAAAAAAABAhEDEjFRBBMhQWEUMnGRoYEi/9oADAMBAAIRAxEAPwDSWpJUeUVeTI8+hPDLgMcoJAjydHEQ0V8RXRGVXZVZ8kBNixyyHPUecNqU57pK4OKwg5PfzdPtOpvJjK20auKST5KTU4P4ZlspFuyiKKX4cVpcKQGSAFYiMVkzJAYQGQ2jwzGiAG8UcxoAK8UaK8AFEY14rxAMRGj3igAwERWFFeMCIrBKyxaAyxUBXIgGWGEjKyaGRRR2WCYwFDWR3gNXUaso8RFYqLV4pS/Op7ae8v3ihaDSzRBhK0iEMS7IosK8lV5VUyQGOwowduAPjMMpzHon/ff6TqQ85PaDXx1HsVfm06hWmUN3+TaX2r8EwaEHkN429NDMn34t6Q70YtAdkrERiBKr4pBq6jxEjfaCDO5PcrH6RWgplpqcjZJXO0OSN/tH1gfn2JICDLm32ENSHTLJWCZUq4p7E3QWHsk/WC7OfXPgFH0i1BRbJjiZbj0hd2tY+sRxHK3bAd6Q6zL/ABNf5mTrHpNR3A1IHeRIziU9tfAg/KZqYqku8bqM8rDsHKJtr0gbbxPcpi1rkeh8Mv8A5pOFz3Kx+NovzXJHPgB8yJlptdANG48BxN+cBttrwQ+JAi7keR9uXBax21mQoopm7tbNgMsgTlfnLRrP7C++f+s5jae0d96bbttw31vfMHl2S2+3H4IvxMjuq35LeJ0qRuCq/wC4PBj9RBp1XZQSyi4ByTn3mYZ2xU5L5H7yD+1KgAAbQAdUcId6PyHZl8HRlWPrt4BP+shrIbdd9VGoGrAcB2zn32nU9v4L9pC+0XOtQ8PWtpnE88RrDL4OmbDjm/vv94DYVeV+8k/Mzl22i3GqffP3kLY4can+/wDWS88eB9mXJ02IwyAdResnqj21hbqDgo8hOROLXiw84Jxae0JP1C4K7L5Ow/FX2l8xGnH/AJ1Pa+BjQ+oQdhnpKrJFEqtix6qscyL2sMsuOfwka7QYi+6q66ktx8J1a0cmhmjuw/w5hHaYt6VW3Ythx7M5X/tSmBnvObnUX4m2bGJ5YopY5A42ov59DcEBRcjPg3Lvm8cel7AMfC3ztynE18b/APo/EUAWtkTlbdtnJqvSDMnfRcgMs9L9/OYrMo3+TeWJyquDrX2g2VkGZtm3YToB2c4L4p7H0lHcv3JnD1tv39dz3Aj7Sq+2QfVc95kvqYjXTs7o4oWG/V4D1gPgtpW/O0hfebezOt2+c4dtrtwQDvJMjbadQ6EDuH3kPqUWun+Tt22ogYEA6EaAcR9pHV2vcEBDmNSZw7YyodXPhYfKRtUc6u3vGQ+pkWsETt6u2H4BB33P1ld9skf5iC+vVnGFe2KwkvPIawxR1T7cB1q+X6CQPtpDq7n3pzuUIESXlkyu3FG0dsJyY+A+8hfaqn1D5gTK3o+/2SXOXI9KNJtsHgnx/SRHark33V+Mo70bei1PkelF47Uqfujw/WRHaNT2h5CVC8lw+HZzlkOZi1SY6SLmGxDtvFmJsMtMtZUbEP7bect08MyBrm9x8gZl7x5ym2krFFK2Tmo59dveMA35nzMjv2xX7ZFlUGVi3YF+2K/bAA92Nuwb9sbKIArRWg3jXgMOKBFADon6QtoHcjPIZaylU2uTovmbzMa41FvCW8PsvEVLblCq4OhVHIPiBaaPJNkKEUO20ah4gdw+8ifFOdXbzt8ptUOg+Ob/AOdlHN2VfgWv8Jp0P/G2KPXakn8TMfgLfGCjOXphcUc4x/uc88h/NKAI0AnYYTo1v4g4Nn6twXVfZAfIHym3V/8AH1CmjuXqMURmFyoF1BIyA7Jo8Un5ROuKPN3Rl1W0DfmoybzgGeo9F9j0DhqbtRp7xBu24tzusVBOWtgJMcOp7jc6R42CTpn3ZydMFVbq06h7kY/IT3lcEg6qqvcAPlHOGHAzZdKvb/hm874PEKXR/FNph6niu7/NaW6XRDGN/k7v+p0HyM9j/K9sjegRLXSw9tkPNLhHlSdBsUdfw172J+Sy0nQGtxqoPBj9p6QacbclrpsZDzzPPV6ANxxC+CH/ALSdegietXbwQD5kzuSkBqcpYMfBLzT5ONHQajxq1D7o/wCMkXoXhhqXP8QHyE6t6BkZomV2YcITyz5ObXolhh6jHvZvvJV6NYYf5QPezn6zdNI8pG1M8o+3Fel+idcuWcL0m2fTRkRKaKCN4kD0jna1zwmdRS03+k6f3q/6B/MZjFbTjyJKTo64NuKsLDWaogIuC6g30NyMp2g2TQ/Y0/cX7TjsCp/EQ2Ng63NtMxrO4FS+hm2Gq8mOa7VEP9m0f2Se4v2jjZ9MaU09xftJd+Lfm/gwtgDCIPUT3V+0L8FfYX3RCDxt6OkLyRPRX2R5CAaQ9keQk7PIi8VAQmmOQ8oDKOQ8pK7yF2gMGw5RQN6KAzhMLibWBsw4hhcT23o5j0fD0xSZCFRFKK19whR6NtRbtngSMRL+DxNiCCQw0sbHwM87FkrwzvlG9j6FFQ8VMMOvEHynmOxumLqAlZieT8f4hx7xOsobaLAFWDA6EEEec61UtjFzcdzE2KVba9YnS9T4KBO021RT8tWIYZUqh1/cM872Hi//AGFV+Zq/Fp1e2doXw9YW1puPNSJOltWmX3Irw0eT0U/vB4/Key9GMGxwlI81J82aeO0h6fn8p7d0U2jSXC0VYkEIAfMzFSlFXFWaxUJfcFUwzDhK7KROjTGUT648T+kjrpSYGzLoeIjXUtfcmD6eMvtZz++Y4N5q0NklkU3vdVJNxmSBHGw3PITRdTjfsyfTyXH7MoUlOrWgNhV9r4TRr7Idc8rd8qvhXAudOwiUs0ZbMTxSS2KjYfkZEyGTI9765Mw91iPpHvNVIxcSowtrOexXS2gjlPSZr2sAT4ZDXsm7tupuUKjDgjfEW+s8k2QC2KonniaQ8TUWZZMrjSRcMSdtndv0tpL1kdf9Suv/AAjJ0ywp1e3gx+gnpWI2nTT/ABKiJkes6jS3M9sysT0iwmf96r9iKX/lBi7svZknF7L+nmO2dp0KzhkrIAFA9I7puCTy7ZnXHqNTduADoT4AkT0DaXSbDslTcw9V7K3pDDmykKesSPRt2zx3DYN3A3ULD0sxbWwt4A2PjMMsv9vg6sLv4rk3K2JrLkwseW8v3g0tpVEN2uOXLzGUko1CEUVqZLBawLFbkl6QFK55q4JJJ0OXa9VsO1ju2t+W3lG/Zx+GfzFrnKzgWz43EjQt0zfuPZo0MJt83AOc6XB10cXU58RxnDbU2clM/iUH36J4+shPquNbcm8NdZMBtIqQQZUM0oSqXlGc8EciteGd4VEBrStgdpLUADEBvgf1ll6c7ozUlaOCcHB0yNjI2aE6GRMpjskjaRNJWSRssLGiO0UfciisZ5raIIeEO0fdnknpFnDYojJr9/3mrhNotTO9TdRfrISNxu8cD2iYbEjI8POOzjQi80jNolxTOp2Rj0Ws1R2CBt7W5ALG9sps47bdN0dFqI28tgATnfhnOHxT2Qd4+UiwlT0xNe9JPSZPEn/0a9M2e/fPQNjYtfwkAIyUC1xfynnNNvSlOu/pt3mNZdHmhuOpUezJX5EQq1c7jZjqt8jPG6eOdeq7juY/eXKO38QoIFViCCCDnrlxj+pi90R25LZnruH2g6Im65A3Re3IIT9JeXalUj/ENu+eUUOlOIIC2QgCwO6Rw3db8jNXDbbrKvpBMz2+jeUtEvNfwpua9noh2s9wC1++x08JCu0GdVLAHIHlw7J59iOkFdMxSByOdywz45ZzNbpbiR6IKrYWyTl3yX24vb+DU8jW56Vgq4IJ3F69Tnbrt2yy1RfYXwvl8Z5KvSXEgWD8SeqNWJJ+JMY9JMT+0PkInkj8gtXwd/0pcflatsvQ/wCQnjqVbHLL0gb903MRtqs6lHclWFiOYMyRSAbeBN734fIiZzmpNUVFVdna9FOkTJuKcLRcq29+JuKjnIj03C3brdb90TvMb0wZVsmHVyACVFXd19m6WI4cO6eOUdp1UFlcDt3FJPeeMJts1ywbfFwbj0B4g55gy9UGvN2Rplfqjqsf0ncUsWv5e34yO7sXt+H+Ju0rD0fTILryvOT2ZtRigS/VAst+AVVJHfui/hLD7QxD03UlCtRd1vRztvBsrtkbqJiVMK65X4dg9be585nklbtGuKNbI6dMWMybcrfeFVVaiMihFYlTvbov6K7qrvahbcpyiYlhkbzUweK7ZKkzVpME1HpNum6t8COfaIDdffAXM3yAA8AMhNxHSou44BHxHaDwkdDZaobq28OF9R94qfoNXIsKSvC1/PvnRYDHBlO+wBBtmQCcpkJTAlbF4ilTs1RC18gQL2421H9Cb4npZz5lrR0zYpPbX3hIXxie2nvCcwdrYT9mfd/WRLtHC3JNM2Jyy0FhlrzvN3lXKOftPhnTtjU9tPeEibGJ7ae8Jg/nsIfUPkfvB/NYT2fg33h3Vyg7Xwzd/Np7ae8Ipy9WtRud1cuHWih3PwV2kYsa8eKecdYrxiY8eAFzGdTxHylSgbMJbxXV8ZUWmToJc35JWxp0id7WVHb0j3mTYbDP4czw8ZOqImfXY+C37tTLcXJCIKWGLZ6DmdB48Jbw2FUndUb54nqoPvJUw7PYubLy0HgOE0aVNVFgLDlKjjQmwsNh1W1yCfl3CWHQbtyQbm1uztkOcKoPRA/rnN9iCLD4zcbcfS/onXwvLNfD031Av8Zn4miHXtAykeCxPqObWyBPDsMm68MGvaDr7IHqNM2tgnXhfum6UMRXnb4yZQiwTaOaYEa5QSZ0NTCg8vp5SjW2dy+H2MyeN+i1IzCYDPLFXCMP1yP2lSojLqCO+ZtNDNTC5oBzv85E+EJ9fzELCdRe76ycLNVFNKwUmtjIqYdlF8jGSpLuK6p7jKWES91PeJEo6di4yvcu0MUZq4PEmY6pbWW6B5RRspm2xuLiZW20vTP7pB+h+BMs0a0kxCh1K8wR5y7tEVRxsUNlsSDqMvKCR3zIY140Pcyvcd3GMVtABrxRbp5RQAK0cCJVJ0kqYYnWCTYEUkSgx4S/h8J2Wk5dFGWZ+EtQ9slshWiTquX72kNFRL8eXLykT1y2kkw2FLG5/rumm78Ej7zvkNP60lrD4ULmdZOlMLpDWaKPIrEFuZMD2wbwllCHZoTnheMuohOePbGAFPWx0vnKGMobpv5/eXd+xjVACvneTJWg9kOBxXqMe48uwy+yTEq0yhsfAy9gcZb0HOXA/QyU/TCS9ot2jESUjug+EolMiZAdZA+CU6Ej4jylu0a0Q7Mt8Ew0F+0ZfCQVA2g17RpNq3bBemDqLxUOzAGHcA7wOepsT5GQlwhyW3f2zfOGt1WI+Ur1sMT1lDDs+0mUfA0zNIvmOXzjJVtJzTC5C/ceErYgcZjTTNrtWXUrgyx+JlMVHmhhnvlHYIzdoKA5Nsmz+/xBlbfm3tLCXTetmufhxmFccJLEI98UQWEUPGIAYoVuyKFAalPDnuHb9pLvoumZ+EqPid7lAQEza0tjOuSatiie3sGkBELa+Uko0L/UzRw9ID7xqLkDdEVDCjj5fcy2MoxblEs0SrYkQkogZR7iMAxJMpGoELKMAlMTLlEgjNb+jACNxDFvOA5HbGDQADEICpHHUGZy5ZTVddDKeMS1mHHIyJIaLGBxdvRfTgeXYZpETnQZfwOLtZG09U8uzuhGRMo+0aRWCTDMiYiUSgWgXjs0YtEWOIrRg3YYhU5gwAZ6YOovMTFUSjWPVPVPPs75u7/YZBiF31K7uvdkeBiklJFRlRgsloVKpaC4IJB4SJ3tnOY1NcYobtjynN1AAx3dL5Qq2IJy4SGJuwLNKrlawvJN8HrDylNTLlKkzC6kHmOIgm2SwIof4b+zFHQWWEQCWqVG+uUVKnaW0m8YmTYaJYQmaAXjXlgSCFAWFGA4McDODCWAEgjNGBjxgENIxjAZRXgMYwbR7wTEIkQ5WgHkdIKCx1Md84t0N0tjOqeixGfzuOFjEDeXatIsMsiNORlBWOnLUTPYZp4DHAeg+nA8uwzTZeInNy/s/H7voOcuB5dh7Jal6ZMo+0X2WAZPUPKQMsdCTHigRy0BjNlxkbV1AJuMgSbEHSc9tqqzVCpOS2sOGYBvMyZSy06otRsuPjN67NqST56faVXcmBGmLdmg8aKKIBxJsNU3W7OMhiEE6A3PT7fMR5jriWGQJy7YppqRGlnQrYQ7yG8MGdBkHHWCIUBhXhXgXigBIDCBkawrwsA7x1MAmPeOwDvBJjEwSYMArxjGvGJiAImPAvaEpgASnO0q42h648ZO0lU3EUkCZkgxzCxFPdbXI6SOQUaGAx27ZXOXA8uwzUc3znOGW8Hjd2yt1eHZ39ktS5JcfZpMIJkhgMIxIwOkNHNXGnVPfqPrMSdpXoqylWFwf6vOWx+Aamc81OjfQ8jMMkfNmsZeinFHjTIsUUUUAHijRQAeKKKAHRiEsiUyQGdhzkgMcGRgwhAAo4glo4gMkvG3o0G8AD3o6mRwlgBIWjXkatlHvAArxjGjExAE0e8jvHBhYEt4KvYxlMZowDxNPfFsuYmQHsbHUa9nhNLUjP45eUixuGHXH8WvnM2UisGiiHx+EYmAFzBY0rZG6vA8v0mmWnPMJcwOM3fQbq8DyjUuRNGoZXxVEOjLzGXYeBlmw8DAYSmhJnF1EIJBFiDYiBNjb2HswcaHI940+HymPOWUadGydoUUUUQxRRRQAUUUUAOgWHFFOv0c4YjiKKACWGsUUYPcRjCPFEMUcfSKKCAFdBCMUUAEYxiigAowiii9gJYUUUYMEa+MsPoe6KKSwRkr1Yy8YooimMY50iikjNfBdRe+TNFFNY7EGbtj/Cb+H+YTm4ophl3NY7DRRRTIoUUUUAHiiijA/9k=" alt="Category 1"> -->
+                  <div class="category-content">
+                    <h2 class="category-title"><a href="./csirnet.html">CSIR-NET</a></h2>
+                    <!-- <p class="category-description">Description of Category 1</p> -->
+                  </div>
+                </div>
+                <div class="categorys">
+                  <!-- <img src="image2.jpg" alt="Category 2"> -->
+                  <div class="category-content">
+                    <h2 class="category-title"><a href="./bsc.html">B.SC. & M.SC.</a></h2>
+                    <!-- <p class="category-description">Description of Category 2</p> -->
+                  </div>
+                </div>
+                <div class="categorys">
+                  <!-- <img src="image3.jpg" alt="Category 3"> -->
+                  <div class="category-content">
+                    <h2 class="category-title"><a href="./biology.html">BIOLOGY</a></h2>
+                    <!-- <p class="category-description">Description of Category 3</p> -->
+                  </div>
+                </div>
+                <div class="categorys">
+                    <!-- <img src="image3.jpg" alt="Category 3"> -->
+                    <div class="category-content">
+                      <h2 class="category-title"><a href="./physics.html">PHYSICS</a></h2>
+                      <!-- <p class="category-description">Description of Category 3</p> -->
+                    </div>
+                  </div>
+                  <div class="categorys">
+                    <!-- <img src="image3.jpg" alt="Category 3"> -->
+                    <div class="category-content">
+                      <h2 class="category-title"><a href="./maths-stats.html">MATHS STATISTICS</a></h2>
+                      <!-- <p class="category-description">Description of Category 3</p> -->
+                    </div>
+                  </div>
+                  <div class="categorys">
+                    <!-- <img src="image3.jpg" alt="Category 3"> -->
+                    <div class="category-content">
+                      <h2 class="category-title"><a href="./iit-jam.html">IIT-JAM</a></h2>
+                      <!-- <p class="category-description">Description of Category 3</p> -->
+                    </div>
+                  </div>
+                  <div class="categorys">
+                    <!-- <img src="image3.jpg" alt="Category 3"> -->
+                    <div class="category-content">
+                      <h2 class="category-title"><a href="./chemistry.html">CHEMISTRY</a></h2>
+                      <!-- <p class="category-description">Description of Category 3</p> -->
+                    </div>
+                  </div>
+                  <div class="categorys">
+                    <!-- <img src="image3.jpg" alt="Category 3"> -->
+                    <div class="category-content">
+                      <h2 class="category-title"><a href="./mlsuentrance.html">MLSU ENTRANCE</a></h2>
+                      <!-- <p class="category-description">Description of Category 3</p> -->
+                    </div>
+                  </div>
+                  <div class="categorys">
+                    <!-- <img src="image3.jpg" alt="Category 3"> -->
+                    <div class="category-content">
+                      <h2 class="category-title"><a href="./summer.html">SUMMER CONDENSED</a></h2>
+                      <!-- <p class="category-description">Description of Category 3</p> -->
+                    </div>
+                  </div>
+                  <div class="categorys">
+                    <!-- <img src="image3.jpg" alt="Category 3"> -->
+                    <div class="category-content">
+                      <h2 class="category-title"><a href="./maths.html">MATHS</a></h2>
+                      <!-- <p class="category-description">Description of Category 3</p> -->
+                    </div>
+                  </div>
+                <!-- Add more category divs as needed -->
+              </div>
+        </div>
+    </div>
+    <!-- Categories Start -->
+
+
+    <!-- Courses Start -->
+    <div class="container-xxl py-5">
+        <div class="container">
+            <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+                <h6 class="section-title bg-white text-center text-primary px-3">Courses</h6>
+                <h1 class="mb-5">Popular Courses</h1>
+            </div>
+            <div class="row g-4 justify-content-center">
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="course-item bg-light">
+                        <div class="position-relative overflow-hidden">
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PLt-ztRmbvZxr5YXvkDB1zrhbxNTioapya" class="img-fluid" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                            <div class="w-100 d-flex justify-content-center position-absolute bottom-0 start-0 mb-4">
+                                <a href="#" class="flex-shrink-0 btn btn-sm btn-primary px-3 border-end" style="border-radius: 30px 30PX 30PX 30px;">Read More</a>
+                                <!-- <a href="#" class="flex-shrink-0 btn btn-sm btn-primary px-3" style="border-radius: 0 30px 30px 0;">Join Now</a> -->
+                            </div>
+                        </div>
+                        <div class="text-center p-4 pb-0">
+                            <h3 class="mb-0">₹ <span style="text-decoration: line-through;">5000</span> 3000</h3>
+                            <div class="mb-3">
+                                <small class="fa fa-star text-primary"></small>
+                                <small class="fa fa-star text-primary"></small>
+                                <small class="fa fa-star text-primary"></small>
+                                <small class="fa fa-star text-primary"></small>
+                                <small class="fa fa-star text-primary"></small>
+                                <small>(123)</small>
+                            </div>
+                            <h5 class="mb-4">Physics</h5>
+                        </div>
+                        <div class="d-flex border-top">
+                            <small class="flex-fill text-center border-end py-2"><i class="fa fa-user-tie text-primary me-2"></i>Shyam Sunder Paliwal</small>
+                            <small class="flex-fill text-center border-end py-2"><i class="fa fa-clock text-primary me-2"></i>6 Videos</small>
+                            <!-- <small class="flex-fill text-center py-2"><i class="fa fa-user text-primary me-2"></i>30 Students</small> -->
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="course-item bg-light">
+                        <div class="position-relative overflow-hidden">
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PLt-ztRmbvZxpAqqikycuqP1vQt9HgAfwH" class="img-fluid" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                            <div class="w-100 d-flex justify-content-center position-absolute bottom-0 start-0 mb-4">
+                                <a href="#" class="flex-shrink-0 btn btn-sm btn-primary px-3 border-end" style="border-radius: 30px 30PX 30PX 30px;">Read More</a>
+                                <!-- <a href="#" class="flex-shrink-0 btn btn-sm btn-primary px-3" style="border-radius: 0 30px 30px 0;">Join Now</a> -->
+                            </div>
+                        </div>
+                        <div class="text-center p-4 pb-0">
+                            <h3 class="mb-0">₹ <span style="text-decoration: line-through;">5000</span> 3000</h3>
+                            <div class="mb-3">
+                                <small class="fa fa-star text-primary"></small>
+                                <small class="fa fa-star text-primary"></small>
+                                <small class="fa fa-star text-primary"></small>
+                                <small class="fa fa-star text-primary"></small>
+                                <small class="fa fa-star text-primary"></small>
+                                <small>(123)</small>
+                            </div>
+                            <h5 class="mb-4">Chemistry</h5>
+                        </div>
+                        <div class="d-flex border-top">
+                            <small class="flex-fill text-center border-end py-2"><i class="fa fa-user-tie text-primary me-2"></i>Dr. Vikram Babel</small>
+                            <small class="flex-fill text-center border-end py-2"><i class="fa fa-clock text-primary me-2"></i>7 Videos</small>
+                            <!-- <small class="flex-fill text-center py-2"><i class="fa fa-user text-primary me-2"></i>30 Students</small> -->
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="course-item bg-light">
+                        <div class="position-relative overflow-hidden">
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PLt-ztRmbvZxqlnwS2ATXAWFp_99jeSCQk" title="YouTube video player" frameborder="0" class="img-fluid" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                            <div class="w-100 d-flex justify-content-center position-absolute bottom-0 start-0 mb-4">
+                                <a href="#" class="flex-shrink-0 btn btn-sm btn-primary px-3 border-end" style="border-radius: 30px 30PX 30PX 30px;">Read More</a>
+                                <!-- <a href="#" class="flex-shrink-0 btn btn-sm btn-primary px-3" style="border-radius: 0 30px 30px 0;">Join Now</a> -->
+                            </div>
+                        </div>
+                        <div class="text-center p-4 pb-0">
+                            <h3 class="mb-0">₹ <span style="text-decoration: line-through;">5000</span> 3000</h3>
+                            <div class="mb-3">
+                                <small class="fa fa-star text-primary"></small>
+                                <small class="fa fa-star text-primary"></small>
+                                <small class="fa fa-star text-primary"></small>
+                                <small class="fa fa-star text-primary"></small>
+                                <small class="fa fa-star text-primary"></small>
+                                <small>(123)</small>
+                            </div>
+                            <h5 class="mb-4">Maths</h5>
+                        </div>
+                        <div class="d-flex border-top">
+                            <small class="flex-fill text-center border-end py-2"><i class="fa fa-user-tie text-primary me-2"></i>Dr. Hrishikesh Paliwal</small>
+                            <small class="flex-fill text-center border-end py-2"><i class="fa fa-clock text-primary me-2"></i>101 Videos</small>
+                            <!-- <small class="flex-fill text-center py-2"><i class="fa fa-user text-primary me-2"></i>30 Students</small> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Courses End -->
+
+
+    <!-- Team Start -->
+    <div class="container-xxl py-5">
+        <div class="container">
+            <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+                <h6 class="section-title bg-white text-center text-primary px-3">Instructors</h6>
+                <h1 class="mb-5">Expert Instructors</h1>
+            </div>
+            <div class="row g-4">
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="team-item bg-light">
+                        <div class="overflow-hidden">
+                            <img class="img-fluid" src="img/hri.jpg" alt="">
+                        </div>
+                        <div class="position-relative d-flex justify-content-center" style="margin-top: -23px;">
+                            <div class="bg-light d-flex justify-content-center pt-2 px-1">
+                                <a class="btn btn-sm-square btn-primary mx-1" href=""><i class="fab fa-facebook-f"></i></a>
+                                <a class="btn btn-sm-square btn-primary mx-1" href=""><i class="fab fa-twitter"></i></a>
+                                <a class="btn btn-sm-square btn-primary mx-1" href=""><i class="fab fa-instagram"></i></a>
+                            </div>
+                        </div>
+                        <div class="text-center p-4">
+                            <h5 class="mb-0">Dr. Hrishikesh Plaiwal</h5>
+                            <small>Founder</small>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="team-item bg-light">
+                        <div class="overflow-hidden">
+                            <img class="img-fluid" src="img/san.jpg" alt="">
+                        </div>
+                        <div class="position-relative d-flex justify-content-center" style="margin-top: -23px;">
+                            <div class="bg-light d-flex justify-content-center pt-2 px-1">
+                                <a class="btn btn-sm-square btn-primary mx-1" href=""><i class="fab fa-facebook-f"></i></a>
+                                <a class="btn btn-sm-square btn-primary mx-1" href=""><i class="fab fa-twitter"></i></a>
+                                <a class="btn btn-sm-square btn-primary mx-1" href=""><i class="fab fa-instagram"></i></a>
+                            </div>
+                        </div>
+                        <div class="text-center p-4">
+                            <h5 class="mb-0">Sanjay Paliwal</h5>
+                            <small>Faculty</small>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="team-item bg-light">
+                        <div class="overflow-hidden">
+                            <img class="img-fluid" src="img/nare.jpg" alt="">
+                        </div>
+                        <div class="position-relative d-flex justify-content-center" style="margin-top: -23px;">
+                            <div class="bg-light d-flex justify-content-center pt-2 px-1">
+                                <a class="btn btn-sm-square btn-primary mx-1" href=""><i class="fab fa-facebook-f"></i></a>
+                                <a class="btn btn-sm-square btn-primary mx-1" href=""><i class="fab fa-twitter"></i></a>
+                                <a class="btn btn-sm-square btn-primary mx-1" href=""><i class="fab fa-instagram"></i></a>
+                            </div>
+                        </div>
+                        <div class="text-center p-4">
+                            <h5 class="mb-0">Dr. Naresh Menaria</h5>
+                            <small>Faculty</small>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
+                    <div class="team-item bg-light">
+                        <div class="overflow-hidden">
+                            <img class="img-fluid" src="img/nik.jpg" alt="">
+                        </div>
+                        <div class="position-relative d-flex justify-content-center" style="margin-top: -23px;">
+                            <div class="bg-light d-flex justify-content-center pt-2 px-1">
+                                <a class="btn btn-sm-square btn-primary mx-1" href=""><i class="fab fa-facebook-f"></i></a>
+                                <a class="btn btn-sm-square btn-primary mx-1" href=""><i class="fab fa-twitter"></i></a>
+                                <a class="btn btn-sm-square btn-primary mx-1" href=""><i class="fab fa-instagram"></i></a>
+                            </div>
+                        </div>
+                        <div class="text-center p-4">
+                            <h5 class="mb-0">Nikhil Joshi</h5>
+                            <small>Faculty</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Team End -->
+
+
+    <!-- Testimonial Start -->
+    <div class="container-xxl py-5 wow fadeInUp" data-wow-delay="0.1s">
+        <div class="container">
+            <div class="text-center">
+                <h6 class="section-title bg-white text-center text-primary px-3">Testimonial</h6>
+                <h1 class="mb-5">Our Students Say!</h1>
+            </div>
+            <div class="owl-carousel testimonial-carousel position-relative">
+                <div class="testimonial-item text-center">
+                    <img class="border rounded-circle p-2 mx-auto mb-3" src="img/testimonial-1.jpg" style="width: 80px; height: 80px;">
+                    <h5 class="mb-0">Student</h5>
+                    <p>at Aryam Classes</p>
+                    <div class="testimonial-text bg-light text-center p-4">
+                    <p class="mb-0">मुझेअपनेगुरुजनों एवंकोचिंग इंस्टिट्यूि केबारेमेंकु छ कहनेका सोभाग्य स्मला हैतो मेंयेकहना िंाहूँगा की हमें
+                        ककताबी ज्ञान तो सभी कोचिंग इंस्टिट्यूि देसकतेहैपरन्तुएक जो वाटतस्वक मूल्य हैवो हमेसमजाया गया हैवो सभी
+                        गुण जो बेटि कोचिंग फे कल्िी मेंहोनेिंास्हए वो तो सम्पूणणरूप सेस्नस्हत हैऔर हम जीवन केहर समय तक “ THE
+                        ARYA CLASSES “ सेजुड़ेरहेंग</p>
+                    </div>
+                </div>
+                <div class="testimonial-item text-center">
+                    <img class="border rounded-circle p-2 mx-auto mb-3" src="img/testimonial-2.jpg" style="width: 80px; height: 80px;">
+                    <h5 class="mb-0">Student</h5>
+                    <p>at Aryam Classes</p>
+                    <div class="testimonial-text bg-light text-center p-4">
+                    <p class="mb-0">स्वषय ज्ञान तथा वाटतस्वक ज्ञान सेपररपूणणगुरुजनों स्जनकेउनकेस्वद्यार्थथयों केप्रस्त अपनत्व और अपनेकाम केप्रस्त स्नष्ठा यह
+                        कहकर एक छात्र को पढनेकेस्लयेप्रेररत करती हैयहाूँकेमंकदर जेसेमाहोल का आनंद लेतेहुए समटत स्वद्वान्गुरुजनों केसास्नध्य में
+                        नेस्तक और PHYSICS का ज्ञान प्राप्त कर केबहुत ख़ुशी हुई I AM PROUD OF ME BECAUSE I AM AN ARYAN .</p>
+                    </div>
+                </div>
+                <div class="testimonial-item text-center">
+                    <img class="border rounded-circle p-2 mx-auto mb-3" src="img/testimonial-3.jpg" style="width: 80px; height: 80px;">
+                    <h5 class="mb-0">HERAMB JOSHI
+                        </h5>
+                    <p>SECURITY EXECUTIVE
+                        HINDUSTAN ZINC LTD.</p>
+                    <div class="testimonial-text bg-light text-center p-4">
+                    <p class="mb-0">I have been with ARYA CLASSES since I was in B.Sc. 2nd yr and I can
+                        honestly say that being taught by every teacher of ARYA CLASSES for all
+                        these years is definitely a blessing for me. Since I joined ARYA CLASSES, I
+                        slowly built up my confidence level. Because of Hrishikesh sir and Sudeep
+                        sir,I have been motivated countless timesto work and strive harder for a
+                        better future.
+                        Thank you for giving me the opportunity to
+                        shine bright.ARYA CLASSES has a true teacher that takes a hand,opens a
+                        mind and touches a heart.
+                        Special thanks to Shyam sir,Ujjwal sir,Sanjay
+                        sir,Divya ma’am and Naresh sir</p>
+                    </div>
+                </div>
+                <div class="testimonial-item text-center">
+                    <img class="border rounded-circle p-2 mx-auto mb-3" src="img/testimonial-4.jpg" style="width: 80px; height: 80px;">
+                    <h5 class="mb-0">Client Name</h5>
+                    <p>Profession</p>
+                    <div class="testimonial-text bg-light text-center p-4">
+                    <p class="mb-0">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit diam amet diam et eos. Clita erat ipsum et lorem et sit.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Testimonial End -->
+        
+
+    <!-- Footer Start -->
+    <div class="container-fluid bg-dark text-light footer pt-5 mt-5 wow fadeIn" data-wow-delay="0.1s">
+        <div class="container py-5">
+            <div class="row g-5">
+                <div class="col-lg-3 col-md-6">
+                    <h4 class="text-white mb-3">Quick Link</h4>
+                    <a class="btn btn-link" href="./about.html">About Us</a>
+                    <a class="btn btn-link" href="./contact.html">Contact Us</a>
+                    <a class="btn btn-link" href="https://merchant.razorpay.com/policy/LfXFaKGS4NYAL3/refund">Shipping & Delivery Policy </a>
+                    <a class="btn btn-link" href="https://merchant.razorpay.com/policy/LfXFaKGS4NYAL3/terms">Terms & Condition</a>
+                    <a class="btn btn-link" href=" https://merchant.razorpay.com/policy/LfXFaKGS4NYAL3/contact_us">Contact</a>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h4 class="text-white mb-3">Contact</h4>
+                    <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>Sevashram Chouraha, Subhash Nagar, Udaipur, Rajasthan 313001, India</p>
+                    <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>+91 78911 22210</p>
+                    <p class="mb-2"><i class="fa fa-envelope me-3"></i>aryaonlineclasses0924@gmail.com</p>
+                    <div class="d-flex pt-2">
+                        <a class="btn btn-outline-light btn-social" href="https://twitter.com/ANANTARYAMCLASSESUDAIPUR"><i class="fab fa-twitter"></i></a>
+                        <a class="btn btn-outline-light btn-social" href="https://facebook.com/arya classes"><i class="fab fa-facebook-f"></i></a>
+                        <a class="btn btn-outline-light btn-social" href="https://www.youtube.com/@ANANTARYAMCLASSESUDAIPUR"><i class="fab fa-youtube"></i></a>
+                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h4 class="text-white mb-3">Gallery</h4>
+                    <div class="row g-2 pt-2">
+                        <div class="col-4">
+                            <img class="img-fluid bg-light p-1" src="img/course-1.jpg" alt="">
+                        </div>
+                        <div class="col-4">
+                            <img class="img-fluid bg-light p-1" src="img/course-2.jpg" alt="">
+                        </div>
+                        <div class="col-4">
+                            <img class="img-fluid bg-light p-1" src="img/course-3.jpg" alt="">
+                        </div>
+                        <div class="col-4">
+                            <img class="img-fluid bg-light p-1" src="img/course-2.jpg" alt="">
+                        </div>
+                        <div class="col-4">
+                            <img class="img-fluid bg-light p-1" src="img/course-3.jpg" alt="">
+                        </div>
+                        <div class="col-4">
+                            <img class="img-fluid bg-light p-1" src="img/course-1.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h4 class="text-white mb-3">Latest lecture</h4>
+                    
+                    <div class="position-relative mx-auto" style="max-width: 400px;">
+                        <iframe  src="https://www.youtube.com/embed/NsJ_as6YYwQ?si=EyGhrazY3_RgtoQi" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="copyright">
+                <div class="row">
+                    <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                        &copy; <a class="border-bottom" href="https://anantaryaminstitute.com/">anantharyaminstitute.com</a>, All Right Reserved.
+
+                        <!--/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. ***/-->
+                        Designed By <a class="border-bottom" href="https://webbyvibe.com/">Jatin Vashishtha</a>
+                    </div>
+                    <div class="col-md-6 text-center text-md-end">
+                        <div class="footer-menu">
+                            <a href="./index.html">Home</a>
+                            <a href="">Cookies</a>
+                            <a href="">Help</a>
+                            <a href="">FQAs</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer End -->
+
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="bi bi-arrow-up"></i></a>
+
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>

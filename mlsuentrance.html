@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Anant Aryam Classes - The Unit Of Aryam Institute</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;600&family=Nunito:wght@600;700;800&display=swap" rel="stylesheet">
+
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+    <style>
+        .section-image {
+  display: grid;
+  padding: 2rem;
+  grid-template-columns: 300px 1fr;
+  gap: 1rem;
+  align-items: center;
+  max-width: 800px;
+  margin: 0 auto;
+  font: 500 100%/1.5 system-ui;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+@media (max-width: 650px) {
+  .section-image {
+    display: block;
+    font-size: 80%;
+  }
+  .section-image  p {
+    position: relative;
+    margin: -3rem 0 2rem 1rem;
+    padding: 1rem;
+    background: rgba(white, 0.8);
+  }
+}
+
+.section-body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f0f0f0;
+    }
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+    .content {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: justify;
+      padding: 20px;
+      background-color: #fff;
+      border-radius: 10px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+    .content-img {
+      max-width: 100%;
+      height: 300px;
+      margin-bottom: 20px;
+      border-radius: 5px;
+    }
+    p {
+      font-size: 18px;
+      line-height: 1.6;
+      margin: 0;
+    }
+
+    .body-section {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 20px;
+    }
+    .body-container {
+      max-width: 800px;
+      margin: 0 auto;
+    }
+    .section {
+      margin-bottom: 40px;
+    }
+    h2 {
+      font-size: 24px;
+      margin-bottom: 20px;
+    }
+    p {
+      font-size: 16px;
+      line-height: 1.6;
+    }
+    .read-more {
+      text-align: center;
+      margin-top: 20px;
+    }
+    .read-more button {
+      padding: 10px 20px;
+      background-color: #007bff;
+      color: #fff;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    </style>
+</head>
+
+<body>
+    <!-- Spinner Start -->
+    <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+        <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
+            <span class="sr-only">Loading...</span>
+        </div>
+    </div>
+    <!-- Spinner End -->
+
+
+    <!-- Navbar Start -->
+    <nav class="navbar navbar-expand-lg bg-white navbar-light shadow sticky-top p-0">
+        <a href="index.html" class="navbar-brand d-flex align-items-center px-4 px-lg-5">
+            <h2 class="m-0 text-primary"><i class="fa fa-book me-3"></i>ARYAM CLASSES</h2>
+        </a>
+        <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+            <div class="navbar-nav ms-auto p-4 p-lg-0">
+                <a href="index.html" class="nav-item nav-link active">Home</a>
+                <a href="about.html" class="nav-item nav-link">About</a>
+                <a href="courses.html" class="nav-item nav-link">Courses</a>
+                <div class="nav-item dropdown">
+                    <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Pages</a>
+                    <div class="dropdown-menu fade-down m-0">
+                        <a href="team.html" class="dropdown-item">Our Team</a>
+                        <a href="gallery.html" class="dropdown-item">Gallery</a>
+                        <a href="404.html" class="dropdown-item">404 Page</a>
+                    </div>
+                </div>
+                <a href="contact.html" class="nav-item nav-link">Contact</a>
+            </div>
+            <a href="contact.html" class="btn btn-primary py-4 px-lg-5 d-none d-lg-block">Join Now<i class="fa fa-arrow-right ms-3"></i></a>
+        </div>
+    </nav>
+    <!-- Navbar End -->
+    <section class="section-body">
+        <div class="container">
+          <div class="content">
+<img src="data:image/jpeg;base64,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" class="content-img" alt="">
+              <div class="body-container">
+                <div class="section">
+                  <h2>MLSU Entrance Examination  </h2>
+                  <p>
+                    Mohanlal Sukhadia University (erstwhile Udaipur University) at Udaipur is a NAAC ‘A’ accredited State University established by an Act in the year 1962 to cater the needs of higher education in Southern Rajasthan with more then 2.25 Lakh Students. The University is located in Aravalli Hill Area largely dominated by tribal populations. Endowed with rich cultural heritage, natural resources and beautiful landscape, Udaipur is a world renowned tourist attraction.
+
+                    It conducts PGET (Post Graduate Entrance Test ) each year .We prepare students for this examination for a short time in just three months .It covers some part of syllabus of DU/MSU/BHU/CUCET .The duration of course remains from January to June each year .
+                      </p>
+                  <!-- ... Your text goes here ... -->
+                </div>
+            
+                <!-- Intensive Contact Program -->
+               
+            
+              <!-- Responsive "Read More" Button -->
+              <div class="read-more">
+                <button id="readMoreBtn">Read Less</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      
+      </section>
+    
+    <!-- Footer Start -->
+    <div class="container-fluid bg-dark text-light footer pt-5 mt-5 wow fadeIn" data-wow-delay="0.1s">
+        <div class="container py-5">
+            <div class="row g-5">
+                <div class="col-lg-3 col-md-6">
+                    <h4 class="text-white mb-3">Quick Link</h4>
+                    <a class="btn btn-link" href="./about.html">About Us</a>
+                    <a class="btn btn-link" href="./contact.html">Contact Us</a>
+                    <a class="btn btn-link" href="https://merchant.razorpay.com/policy/LfXFaKGS4NYAL3/refund">Shipping & Delivery Policy </a>
+                    <a class="btn btn-link" href="https://merchant.razorpay.com/policy/LfXFaKGS4NYAL3/terms">Terms & Condition</a>
+                    <a class="btn btn-link" href=" https://merchant.razorpay.com/policy/LfXFaKGS4NYAL3/contact_us">Contact</a>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h4 class="text-white mb-3">Contact</h4>
+                    <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>Sevashram Chouraha, Subhash Nagar, Udaipur, Rajasthan 313001, India</p>
+                    <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>+91 78911 22210</p>
+                    <p class="mb-2"><i class="fa fa-envelope me-3"></i>aryaonlineclasses0924@gmail.com</p>
+                    <div class="d-flex pt-2">
+                        <a class="btn btn-outline-light btn-social" href="https://twitter.com/ANANTARYAMCLASSESUDAIPUR"><i class="fab fa-twitter"></i></a>
+                        <a class="btn btn-outline-light btn-social" href="https://facebook.com/arya classes"><i class="fab fa-facebook-f"></i></a>
+                        <a class="btn btn-outline-light btn-social" href="https://www.youtube.com/@ANANTARYAMCLASSESUDAIPUR"><i class="fab fa-youtube"></i></a>
+                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h4 class="text-white mb-3">Gallery</h4>
+                    <div class="row g-2 pt-2">
+                        <div class="col-4">
+                            <img class="img-fluid bg-light p-1" src="img/course-1.jpg" alt="">
+                        </div>
+                        <div class="col-4">
+                            <img class="img-fluid bg-light p-1" src="img/course-2.jpg" alt="">
+                        </div>
+                        <div class="col-4">
+                            <img class="img-fluid bg-light p-1" src="img/course-3.jpg" alt="">
+                        </div>
+                        <div class="col-4">
+                            <img class="img-fluid bg-light p-1" src="img/course-2.jpg" alt="">
+                        </div>
+                        <div class="col-4">
+                            <img class="img-fluid bg-light p-1" src="img/course-3.jpg" alt="">
+                        </div>
+                        <div class="col-4">
+                            <img class="img-fluid bg-light p-1" src="img/course-1.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h4 class="text-white mb-3">Latest lecture</h4>
+                    
+                    <div class="position-relative mx-auto" style="max-width: 400px;">
+                        <iframe  src="https://www.youtube.com/embed/NsJ_as6YYwQ?si=EyGhrazY3_RgtoQi" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="copyright">
+                <div class="row">
+                    <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                        &copy; <a class="border-bottom" href="https://anantaryaminstitute.com/">anantharyaminstitute.com</a>, All Right Reserved.
+
+                        <!--/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. ***/-->
+                        Designed By <a class="border-bottom" href="https://webbyvibe.com/">Jatin Vashishtha</a>
+                    </div>
+                    <div class="col-md-6 text-center text-md-end">
+                        <div class="footer-menu">
+                            <a href="./index.html">Home</a>
+                            <a href="">Cookies</a>
+                            <a href="">Help</a>
+                            <a href="">FQAs</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer End -->
+
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="bi bi-arrow-up"></i></a>
+
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+    <script>
+        const readMoreBtn = document.getElementById('readMoreBtn');
+        const sections = document.querySelectorAll('.section:not(:first-child)');
+    
+        readMoreBtn.addEventListener('click', () => {
+          sections.forEach(section => {
+            section.style.display = (section.style.display === 'none') ? 'block' : 'none';
+          });
+        });
+      </script>
+</body>
+
+</html>
+
+
+
+<!-- https://formsubmit.co/el/xagoje -->
